@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cn8cb6jh1m472"
-path="res://.godot/imported/MisoSpriteSquish4.png-b1493d01d86b31297bb137c83c600155.ctex"
+uid="uid://bvjg7w5ipmvyu"
+path="res://.godot/imported/MisoUp.png-2565b05590e4b5ae661d9b293a2b3ad0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/MisoSpriteSquish4.png"
-dest_files=["res://.godot/imported/MisoSpriteSquish4.png-b1493d01d86b31297bb137c83c600155.ctex"]
+source_file="res://Images/MisoUp.png"
+dest_files=["res://.godot/imported/MisoUp.png-2565b05590e4b5ae661d9b293a2b3ad0.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgv6jm4dsj1vo"
-path="res://.godot/imported/MisoUp2.png-14245dc7d7cdf7920e7cc16b2f4cbf10.ctex"
+uid="uid://de3td1cnib5kk"
+path="res://.godot/imported/brush.png-d4f63ed13ab7143c5aaa50cd309b0340.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/MisoUp2.png"
-dest_files=["res://.godot/imported/MisoUp2.png-14245dc7d7cdf7920e7cc16b2f4cbf10.ctex"]
+source_file="res://Images/brush.png"
+dest_files=["res://.godot/imported/brush.png-d4f63ed13ab7143c5aaa50cd309b0340.ctex"]
 
 [params]
 

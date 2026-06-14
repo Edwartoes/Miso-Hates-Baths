@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvjg7w5ipmvyu"
-path="res://.godot/imported/MisoUp.png-65d97d15913dd5493f415b7ba6c05550.ctex"
+uid="uid://bdsgyrxr08jh5"
+path="res://.godot/imported/enemyWalking_1.png-aa036be0f3002929746ff2be9607eaa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/MisoUp.png"
-dest_files=["res://.godot/imported/MisoUp.png-65d97d15913dd5493f415b7ba6c05550.ctex"]
+source_file="res://Images/enemyWalking_1.png"
+dest_files=["res://.godot/imported/enemyWalking_1.png-aa036be0f3002929746ff2be9607eaa5.ctex"]
 
 [params]
 

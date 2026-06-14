@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dj1o1vl4yqv1r"]
+
+[node name="HUD" type="CanvasLayer" unique_id=601760755]
+
+[node name="Label" type="Label" parent="." unique_id=1874507735]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Label2" type="Label" parent="." unique_id=1559130171]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Button" type="Button" parent="." unique_id=1138216871]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Timer" type="Timer" parent="." unique_id=1543608614]

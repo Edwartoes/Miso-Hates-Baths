@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8nm12oommit2"
-path="res://.godot/imported/MisoSprite.png-a85c84664dc5bd5d8c23b9aa08a199c7.ctex"
+uid="uid://bm01l3kpng8ex"
+path="res://.godot/imported/waterDroplet.png-e0a0dad69dfc377ed611476b781d8b82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/MisoSprite.png"
-dest_files=["res://.godot/imported/MisoSprite.png-a85c84664dc5bd5d8c23b9aa08a199c7.ctex"]
+source_file="res://Images/waterDroplet.png"
+dest_files=["res://.godot/imported/waterDroplet.png-e0a0dad69dfc377ed611476b781d8b82.ctex"]
 
 [params]
 

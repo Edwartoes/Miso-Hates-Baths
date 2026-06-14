@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2j7ax0a11vaj"
-path="res://.godot/imported/MisoDown.png-c9e787092f77cad1eebf877f35bd3953.ctex"
+uid="uid://dxkbstjo1f0il"
+path="res://.godot/imported/enemySwimming_2.png-4708af88081df7ee32688f03475598d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/MisoDown.png"
-dest_files=["res://.godot/imported/MisoDown.png-c9e787092f77cad1eebf877f35bd3953.ctex"]
+source_file="res://Images/enemySwimming_2.png"
+dest_files=["res://.godot/imported/enemySwimming_2.png-4708af88081df7ee32688f03475598d8.ctex"]
 
 [params]
 

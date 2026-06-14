@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://c7trsxr7ixmak"]
 
 [ext_resource type="Script" uid="uid://cl3u5w6juunkd" path="res://Player/playerMiso.gd" id="1_i3mve"]
-[ext_resource type="Texture2D" uid="uid://bvjg7w5ipmvyu" path="res://Player/MisoUp.png" id="2_bm6ft"]
-[ext_resource type="Texture2D" uid="uid://d2j7ax0a11vaj" path="res://Player/MisoDown.png" id="3_i3mve"]
-[ext_resource type="Texture2D" uid="uid://bgv6jm4dsj1vo" path="res://Player/MisoUp2.png" id="4_e7fdf"]
-[ext_resource type="Texture2D" uid="uid://1wypd40onwgc" path="res://Player/MisoSpriteFlipped.png" id="4_i3mve"]
-[ext_resource type="Texture2D" uid="uid://cn8cb6jh1m472" path="res://Player/MisoSpriteSquish4.png" id="8_txxhj"]
+[ext_resource type="Texture2D" uid="uid://bvjg7w5ipmvyu" path="res://Images/MisoUp.png" id="2_bm6ft"]
+[ext_resource type="Texture2D" uid="uid://d2j7ax0a11vaj" path="res://Images/MisoDown.png" id="3_i3mve"]
+[ext_resource type="Texture2D" uid="uid://bgv6jm4dsj1vo" path="res://Images/MisoUp2.png" id="4_e7fdf"]
+[ext_resource type="Texture2D" uid="uid://1wypd40onwgc" path="res://Images/MisoSpriteFlipped.png" id="4_i3mve"]
+[ext_resource type="Texture2D" uid="uid://cn8cb6jh1m472" path="res://Images/MisoSpriteSquish4.png" id="8_txxhj"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_e7fdf"]
 animations = [{
@@ -67,3 +67,5 @@ position = Vector2(38.888554, -15.59053)
 rotation = -3.1415925
 scale = Vector2(5.573101, -3.9668572)
 shape = SubResource("RectangleShape2D_kd4xn")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

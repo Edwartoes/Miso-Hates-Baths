@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://4nky37dx7rh0"]
+
+[ext_resource type="Script" uid="uid://drdjksidid42e" path="res://Enemies/BasicEnemy.gd" id="1_xnctp"]
+[ext_resource type="Texture2D" uid="uid://chyfp22tgq6r2" path="res://Images/barOfSoap.png" id="2_1d7sw"]
+[ext_resource type="Texture2D" uid="uid://de3td1cnib5kk" path="res://Images/brush.png" id="2_1fowp"]
+[ext_resource type="Texture2D" uid="uid://dpjv5emcbghld" path="res://Images/bubble.png" id="4_x8kq4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p5pgp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1fowp")
+}],
+"loop": true,
+"name": &"brush",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_x8kq4")
+}],
+"loop": true,
+"name": &"bubbles",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1d7sw")
+}],
+"loop": true,
+"name": &"soap",
+"speed": 3.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_x5xny"]
+radius = 54.666668
+
+[node name="BasicEnemy" type="RigidBody2D" unique_id=1180920758]
+scale = Vector2(0.75, 0.75)
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_xnctp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1901298633]
+sprite_frames = SubResource("SpriteFrames_p5pgp")
+animation = &"brush"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1516663498]
+shape = SubResource("CircleShape2D_x5xny")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=1897529673]

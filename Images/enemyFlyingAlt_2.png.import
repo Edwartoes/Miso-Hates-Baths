@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1wypd40onwgc"
-path="res://.godot/imported/MisoSpriteFlipped.png-25caf840a8ad9a6909acfb956fb940e8.ctex"
+uid="uid://bv4lsqkpvx3ng"
+path="res://.godot/imported/enemyFlyingAlt_2.png-0d2f002eded5a3c70259b2ade9dbe1ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/MisoSpriteFlipped.png"
-dest_files=["res://.godot/imported/MisoSpriteFlipped.png-25caf840a8ad9a6909acfb956fb940e8.ctex"]
+source_file="res://Images/enemyFlyingAlt_2.png"
+dest_files=["res://.godot/imported/enemyFlyingAlt_2.png-0d2f002eded5a3c70259b2ade9dbe1ef.ctex"]
 
 [params]
 
