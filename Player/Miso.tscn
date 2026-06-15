@@ -40,11 +40,13 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_5uhik"]
-size = Vector2(24.848282, 13.16482)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e7fdf"]
+radius = 3.0720983
+height = 29.121847
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_kd4xn"]
-size = Vector2(9.968437, 11.389641)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5uhik"]
+radius = 5.6034083
+height = 22.828098
 
 [node name="PlayerMiso" type="Area2D" unique_id=1773287103]
 scale = Vector2(0.99000806, 1.0214486)
@@ -55,17 +57,19 @@ metadata/_edit_group_ = true
 position = Vector2(0, 0.97900176)
 scale = Vector2(0.49593785, 0.46319106)
 sprite_frames = SubResource("SpriteFrames_e7fdf")
-animation = &"walk"
+animation = &"up"
 
-[node name="CollisionShape2D (Body)" type="CollisionShape2D" parent="." unique_id=2019348646]
-position = Vector2(-9.595878, 21.912048)
-scale = Vector2(5, 5)
-shape = SubResource("RectangleShape2D_5uhik")
-
-[node name="CollisionShape2D (Head)" type="CollisionShape2D" parent="." unique_id=1531684136]
-position = Vector2(38.888554, -15.59053)
+[node name="CollisionShape2D (UpDown)" type="CollisionShape2D" parent="." unique_id=1531684136]
+position = Vector2(5, 0)
 rotation = -3.1415925
-scale = Vector2(5.573101, -3.9668572)
-shape = SubResource("RectangleShape2D_kd4xn")
+scale = Vector2(-7.024, 5)
+shape = SubResource("CapsuleShape2D_e7fdf")
+
+[node name="CollisionShape2D (LeftRight)" type="CollisionShape2D" parent="." unique_id=2019348646]
+visible = false
+position = Vector2(-9.595878, 21.912048)
+rotation = 1.5707964
+scale = Vector2(5, 5)
+shape = SubResource("CapsuleShape2D_5uhik")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

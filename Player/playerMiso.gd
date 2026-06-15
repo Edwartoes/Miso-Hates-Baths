@@ -8,8 +8,8 @@ var screen_size # Size of the game window.
 func start(pos):
 	position = pos
 	show()
-	$"CollisionShape2D (Body)".disabled = false
-	$"CollisionShape2D (Head)".disabled = false
+	$"CollisionShape2D (UpDown)".disabled = false
+	$"CollisionShape2D (LeftRight)".disabled = false
 
 
 # Called when the node enters the scene tree for the first time.
@@ -40,16 +40,21 @@ func _process(delta):
 	if velocity.x != 0:
 		$AnimatedSprite2D.animation = "walk"
 		$AnimatedSprite2D.flip_v = false
-		# See the note below about the following boolean assignment.
 		$AnimatedSprite2D.flip_h = velocity.x < 0
+		$"CollisionShape2D (UpDown)".set_deferred("disabled", false)
+		$"CollisionShape2D (LeftRight)".set_deferred("disabled", true)
+
 	elif velocity.y != 0:
 		$AnimatedSprite2D.animation = "up"
 		$AnimatedSprite2D.flip_v = velocity.y > 0
+		$"CollisionShape2D (UpDown)".set_deferred("disabled", true)
+		$"CollisionShape2D (LeftRight)".set_deferred("disabled", false)
+
 
 
 func _on_body_entered(_body):
 	hide() # Player disappears after being hit.
 	hit.emit()
 	# Must be deferred as we can't change physics properties on a physics callback.
-	$"CollisionShape2D (Body)".set_deferred("disabled", true)
-	$"CollisionShape2D (Head)".set_deferred("disabled", true)
+	$"CollisionShape2D (UpDown)".set_deferred("disabled", true)
+	$"CollisionShape2D (LeftRight)".set_deferred("disabled", true)
