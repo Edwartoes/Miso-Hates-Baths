@@ -24,6 +24,7 @@ window/stretch/mode="canvas_items"
 [file_customization]
 
 folder_colors={
+"res://Builds/": "gray",
 "res://Enemies/": "red",
 "res://Images/": "yellow",
 "res://Player/": "blue",
