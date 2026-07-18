@@ -27,6 +27,7 @@ folder_colors={
 "res://Enemies/": "red",
 "res://Images/": "yellow",
 "res://Player/": "blue",
+"res://Sound/": "teal",
 "res://UI/": "orange"
 }
 
