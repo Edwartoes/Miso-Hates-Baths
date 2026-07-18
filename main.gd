@@ -22,7 +22,7 @@ func new_game():
 	$PlayerMiso.start($StartPosition.position)
 	$StartTimer.start()
 	$HUD.update_score(score)
-	$HUD.show_message("Get Ready")
+	$HUD.show_message("Bath Time!")
 	get_tree().call_group("mobs", "queue_free")
 	$Music.play()
 

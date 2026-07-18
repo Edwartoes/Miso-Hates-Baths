@@ -57,16 +57,15 @@ metadata/_edit_group_ = true
 position = Vector2(0, 0.97900176)
 scale = Vector2(0.49593785, 0.46319106)
 sprite_frames = SubResource("SpriteFrames_e7fdf")
-animation = &"up"
+animation = &"walk"
 
 [node name="CollisionShape2D (UpDown)" type="CollisionShape2D" parent="." unique_id=1531684136]
-position = Vector2(5, 0)
+position = Vector2(5.0504637, 0)
 rotation = -3.1415925
 scale = Vector2(-7.024, 5)
 shape = SubResource("CapsuleShape2D_e7fdf")
 
 [node name="CollisionShape2D (LeftRight)" type="CollisionShape2D" parent="." unique_id=2019348646]
-visible = false
 position = Vector2(-9.595878, 21.912048)
 rotation = 1.5707964
 scale = Vector2(5, 5)
