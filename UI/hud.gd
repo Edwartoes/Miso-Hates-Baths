@@ -18,7 +18,7 @@ func show_message(text):
 	$MessageTimer.start()
 
 func show_game_over():
-	show_message("Sogged!!!")
+	show_message("you've been sogged!!!")
 	# Wait until the MessageTimer has counted down.
 	await $MessageTimer.timeout
 
